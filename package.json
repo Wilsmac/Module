@@ -1,0 +1,18 @@
+{
+  "name": "Module_wilmer",
+  "version": "1.0",
+  "description": "Módulos para tener información de las imágenes e videos y todo tipo de esas cosas.",
+  "main": "index.js",
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+},
+
+  "author": "Wilsmac",
+  "license": "MIT",
+
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "axios": "^0.24.0"
+  }
+}
