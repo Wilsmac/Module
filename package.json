@@ -1,17 +1,19 @@
 {
-  "name": "Module_wilmer",
-  "version": "1.0",
-  "description": "Módulos para tener información de las imágenes e videos y todo tipo de esas cosas.",
+  "name": "whatsapp-yt-downloader",
+  "version": "1.0.0",
+  "description": "Bot de WhatsApp que descarga videos de YouTube con .descargaryt",
   "main": "index.js",
-
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-},
-
-  "author": "Wilsmac",
-
+    "start": "node index.js"
+  },
+  "author": "TuNombre",
+  "license": "MIT",
   "dependencies": {
+    "express": "^4.18.2",
     "fs": "^0.0.1-security",
-    "axios": "^0.24.0"
+    "path": "^0.12.7",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.23.0",
+    "ytdl-core": "^4.11.3"
   }
 }
